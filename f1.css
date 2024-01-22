@@ -1,0 +1,408 @@
+.profile-bag{
+    position: fixed;
+    background-color: white;
+    scroll-behavior: smooth;
+    overflow: auto;
+    white-space: nowrap;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 3px solid rgba(188, 182, 114, 0.096);
+    border-top: 0px;
+    box-shadow: 0px 10px 10px rgba(159, 158, 158, 0.416);
+}
+.profile-bag:hover{
+    cursor: pointer;
+}
+
+@media only screen and (max-width:750px) {
+    .profile-bag{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+}
+
+.profile-bag img{
+    width: 40px;
+    height: 40px;
+}
+.profile-bag h3{
+    text-align: left;
+}
+
+/* dropdown menu styling  */
+.firstDropDown1 h1{
+    font-weight: bold;
+    font-size: 50px;
+    /* background-color: rgba(200, 197, 194, 0.103); */
+    color: rgb(172, 114, 227);
+}
+.firstDropDown1 img{
+    width: 14.78%;
+    height: 150px;
+}
+.firstDropDown1{
+    scroll-behavior: smooth;
+    overflow: auto;
+    white-space: nowrap;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+}
+.firstDropDown1 table{
+     /* box-shadow: 0px 10px 10px rgba(240, 240, 240, 0.607); */
+    
+     border-left: 1px solid rgba(240, 240, 240, 0.607);
+     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.firstDropDown1 table tr td:nth-child(odd){
+    background-color: rgba(175, 176, 176, 0.1);
+}
+.firstDropDown1 table{
+    border-collapse: collapse;
+    
+}
+.firstDropDown1 td{
+   
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* font-weight: 600; */
+    /* content: attr(title); */
+    letter-spacing: 0.7px;
+}
+.firstDropDown1 td:hover{
+    letter-spacing: 0px;
+    font-weight: bold;
+
+}
+.firstDropDown1 .table2 tr td:nth-child(odd){
+    background-color: rgba(223, 189, 215, 0.236) ;
+}
+.firstDropDown1 .table3 tr td:nth-child(odd){
+    background-color: rgba(255, 255, 224, 0.648) ;
+}
+.firstDropDown1 .table4 tr td:nth-child(odd){
+    background-color: rgba(240, 128, 128, 0.162);
+}
+.firstDropDown1 .table5 tr td:nth-child(odd){
+    background-color: rgba(135, 206, 250, 0.201) ;
+}
+#footer1 table{
+    border-collapse: collapse;
+}
+.table-footer tr td{
+    border-collapse: collapse;
+}
+.table-footer td{
+    padding-left: 20px;
+    padding-right: 20px;
+    letter-spacing: 0.7px;
+    border-collapse: collapse;
+    border: none;
+    background-color: rgba(219, 213, 213, 0.182);
+}
+a:hover{
+    cursor: pointer;
+}
+a:visited{
+    color: black;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.parentFilterProducts{
+    display: flex;
+}
+@media only screen and (max-width:750) {
+    .parentFilterProducts{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.filter1div{
+    border: 1px solid rgba(172, 193, 130, 0.19);
+    
+}
+.product1div{
+    border: 1px solid white;
+}
+.filter1div table{
+    padding-left: 10px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    background-color: rgba(205, 221, 100, 0.163);
+}
+.filter1div h4{
+    color: rgb(59, 164, 90);
+}
+.tbd2{
+    text-align: center;
+    background-color: rgba(97, 64, 162, 0.118);
+}
+.tbd2 td{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.tbd2 button{
+    background-color: black;
+    padding: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: white;
+    font-weight: bold;
+    opacity: 0.5;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.product1div{
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.container div{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    text-align: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+@media only screen and (max-width:750px) {
+    .product1div{
+        display: flex;
+        flex-direction: column;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+.loginDiv{
+    border: 1px solid white;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    background-color: rgba(122, 149, 128, 0.158);
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+.loginDiv form label{
+    background-color: rgba(182, 153, 212, 0.059);
+    color: goldenrod;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    font-size: 20px;
+}
+.loginDiv form input{
+    width: 200px;
+    height: 30px;
+    outline: none;
+    border: none;
+}
+
+.profileDiv{
+    border: 1px solid white;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    background-color: rgba(122, 149, 128, 0.158);
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+
+}
+.profileDiv form label{
+    background-color: rgba(182, 153, 212, 0.059);
+    color: goldenrod;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    font-size: 20px;
+}
+.profileDiv form input{
+    width: 200px;
+    height: 30px;
+    outline: none;
+    border: none;
+}
+#btnfinalsubmittocart1
+{
+    background-color: rgba(204, 222, 45, 0.236);
+    border: none;
+    font-weight: bold;
+    height: 50px;
+    width: 400px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: rgba(76, 139, 175, 0.738);
+    border-radius: 30px;
+}
+#btnfinalsubmittocart1:hover{
+    cursor: pointer;
+    background-color: lightgreen;
+    color: white;
+}
+
+.nextdiv1{
+    
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    display: none;
+}
+@media only screen and (max-width: 750px) {
+    .nextdiv1{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        display: none;
+    }
+}
+
+#c1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+@media only screen and (max-width:750px) {
+    #c1{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+.btnred{
+    color: red ;
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 40px;
+    border: 2px solid transparent;
+    background-color: rgba(211, 106, 106, 0.199);
+    border-radius: 4px;
+}
+.btngreen{
+    color : green ;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 40px;
+    border: 2px solid lightgreen;
+    background-color: rgba(85, 174, 85, 0.388);
+    border-radius: 4px;
+}
+.btncheckcss{
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgba(139, 130, 199, 0.33);
+    border: none;
+    border-radius: 10px;
+}
+.btncheckcss:hover{
+    cursor: pointer;
+    background-color: rgba(91, 48, 177, 0.589);
+}
+.p4css{
+    
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    width: 50px;
+    height: 25px;
+    background-color: aqua;
+}
+#finalprice1{
+    background-color: rgba(206, 210, 72, 0.256);
+    border: none;
+    width: 80px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+#finalprice1:hover{
+    cursor: pointer;
+    background-color: lightblue;
+}
+.overallcheck2{
+    background-color: chocolate;
+    border: none;
+    width: 300px;
+    height: 80px;
+    font-size: 20px;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+.overallcheck2:hover{
+    cursor: pointer;
+    background-color: palevioletred;
+}
+
+.newprofileclasscss{
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    color: rgb(49, 58, 158);
+    background-color: rgba(62, 189, 231, 0.274);
+    border-radius: 50px;
+}
+.wanttoupdateclass{
+    width: 400px;
+    height: 45px;
+    font-size: 20px;
+    border: none;
+    color: yellow;
+    background-color: black;
+    border-radius: 90px;
+    margin-bottom: 90px;
+}
+.inputprofile1 , .inputprofile2 , .inputprofile3 , .inputprofile4{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 400px;
+    height: 30px;
+    background-color: aquamarine;
+    border: none;
+    outline: none;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+}
+
+.maincssclass1{
+    width: 90%;
+    height: 90%;
+    background-color: black;
+    color: black;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.maincssclass1 > img {
+    width: 100%;
+    height: 100%;
+}
